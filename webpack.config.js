@@ -22,16 +22,8 @@ Encore
 // uncomment for legacy applications that require $/jQuery as a global variable
 // .autoProvidejQuery()
 
-// .configureBabel(function(babelConfig) {
-//     // babelConfig.plugins.push('syntax-dynamic-import');
-//     // babelConfig.plugins.push('transform-object-rest-spread');
-//     // babelConfig.plugins.push('transform-class-properties');
-//     // babelConfig.presets.push('babel-polyfill');
-//     babelConfig.presets.push('babel-preset-stage-3');
-// })
 ;
 
 config = Encore.getWebpackConfig();
 config.watchOptions = {poll: true, ignored: '/node_modules/'};
-config.resolve.alias.project_root = path.resolve(__dirname);
 module.exports = config;

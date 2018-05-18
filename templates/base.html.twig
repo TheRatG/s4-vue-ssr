@@ -9,7 +9,7 @@
     </head>
     <body>
         {% block body %}
-            {{ app | raw }}
+            {{ ssr | raw }}
         {% endblock %}
         {% block javascripts %}
             <script src="{{ asset('build/js/client.js') }}"></script>

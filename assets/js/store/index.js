@@ -1,5 +1,7 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
+import merge from 'lodash/merge';
+
 import {getField} from 'vuex-map-fields';
 import * as types from './mutation-types';
 
@@ -42,6 +44,8 @@ const actions = {
 const state = {
     init: {},
     component: 'IndexPage',
+    state_1: 'state_1',
+    state_2: null,
 };
 
 const modules = {
@@ -62,3 +66,9 @@ export function createStore() {
 
 const store = createStore();
 export default store;
+
+export function updateState(store, state) {
+    store._withCommit(function() {
+        store._vm._data.$$state = merge(store._vm._data.$$state, state);
+    });
+}

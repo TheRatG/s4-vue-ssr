@@ -1,10 +1,10 @@
 import {createApp} from './app';
-import {createStore} from './store';
+import {createStore, updateState} from './store';
 
 import util from 'util';
 
 const store = createStore();
-store.replaceState(PHP);
+updateState(store, PHP);
 
 const app = createApp({store: store});
 

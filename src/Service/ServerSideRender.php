@@ -76,7 +76,7 @@ EOT;
             $result = $e->getMessage();
         }
 
-        return ['app' => $result];
+        return ['ssr' => $result];
     }
 
     protected function prepareJsData(array $state)

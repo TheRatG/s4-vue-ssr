@@ -1,7 +1,6 @@
 import 'babel-polyfill';
 import Vue from 'vue';
 
-import {createStore} from './store';
 import {createI18n} from './i18n';
 
 import './setup/validator';
