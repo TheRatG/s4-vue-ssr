@@ -1,0 +1,6 @@
+link_home: 'Главная'
+link_about: 'О проекте'
+link_page: 'Страницы'
+
+manual: '"Ручное" создание меню'
+knp: Меню на основе данных knp menu bundle

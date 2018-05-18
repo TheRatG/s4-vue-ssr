@@ -1,0 +1,15 @@
+welcome: 'Добро пожаловать, Symfony 4 Vue SSR'
+index.title: Главная страница
+about.title: PHP программист пытающийся изучать vue
+
+error_required: 'Поле обязательное для заполнения'
+error_min_lenght: 'Поле дожно содержать минимум {value} символов'
+
+widget.locale: 'Виджет с локалями'
+widget.current_locale: "Текущая локаль"
+widget.locales: "Локали"
+widget.menu: 'Меню'
+
+show_state: 'Показать текущее состояние store'
+
+validation_title: 'Пример поля с валидацией'

@@ -1,0 +1,15 @@
+welcome: 'Welcome, Symfony 4 Vue SSR'
+index.title: Index page
+about.title: PHP programmer who try to learn vue
+
+error_required: 'Field is required'
+error_min_lenght: 'Text must have at least {value} letters'
+
+widget.locale: 'Locale widget'
+widget.current_locale: "Current locale"
+widget.locales: "Locales"
+widget.menu: 'Menu'
+
+show_state: 'Show store state'
+
+validation_title: 'Validation example'
